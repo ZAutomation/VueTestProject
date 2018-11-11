@@ -7,7 +7,7 @@
         <ul>
             <li v-for="item in items" :key="item.id" >{{item.title}}</li>
         </ul>
-        <button v-on:click="greet(mytitle)">SayGreeting  </button>
+        <button v-on:click="greet(mytitle)" class="btn btn-primary">SayGreeting  </button>
         <input type="text" v-on:keyup=pressKey v-on:keyup.enter=EnterHit><br>
     
    <label>First Name </label>
